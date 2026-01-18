@@ -1,19 +1,42 @@
-# Welcome to MkDocs
+# Rooted
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+<div class="rooted-hero">
+  <p class="rooted-tagline">
+    A living knowledge base documenting my journey into cybersecurity.
+  </p>
 
-## Commands
+  <p class="rooted-sub">
+    Built through hands-on labs, deliberate study, and reflection over time.
+  </p>
+</div>
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+---
 
-## Project layout
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## What Lives Here
 
-hello guys! :nerd:
+**Notes**  
+Foundational concepts I revisit and refine as I learn.
+
+**Walkthroughs**  
+Writeups from hands-on labs, focused on understanding attack paths.
+
+**Tools**  
+Commands and experiments with tools I actually use.
+
+**Reflections**  
+Mistakes and lessons that only show up after repetition.
+
+---
+
+
+## About
+
+Rooted is my attempt to learn cybersecurity deliberately.
+
+Instead of scattered notes and forgotten writeups, this site
+acts as a long-term record of what I study, what I struggle with,
+and what eventually clicks.
+
+The goal isn’t just to “get root”, but to build intuition around
+why systems fail and how they can be defended.

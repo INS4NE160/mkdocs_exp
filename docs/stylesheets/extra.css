@@ -1,0 +1,120 @@
+/* =========================
+   Purple Team Identity
+   ========================= */
+
+/* Accent color override */
+:root {
+  --md-accent-fg-color: #a855f7; /* purple */
+  --md-primary-fg-color: #1f1b24;
+}
+
+/* Headings: stronger presence */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+  letter-spacing: 0.04em;
+  font-weight: 600;
+}
+
+/* Add subtle divider glow */
+.md-typeset hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(168, 85, 247, 0.6),
+    transparent
+  );
+  margin: 2rem 0;
+}
+
+/* Code blocks = terminal feel */
+.md-typeset pre {
+  background: #121016;
+  border-left: 4px solid #a855f7;
+  box-shadow: 0 0 18px rgba(168, 85, 247, 0.15);
+}
+
+/* Inline code */
+.md-typeset code {
+  color: #c084fc;
+}
+
+/* Sidebar active item */
+.md-nav__link--active {
+  color: #c084fc !important;
+}
+
+/* Table styling */
+.md-typeset table {
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.md-typeset thead {
+  background: rgba(168, 85, 247, 0.15);
+}
+
+/* Blockquote = analyst note */
+.md-typeset blockquote {
+  border-left: 4px solid #a855f7;
+  background: rgba(168, 85, 247, 0.08);
+}
+
+.rooted-hero {
+  margin: 2rem 0 3rem 0;
+}
+
+.rooted-tagline {
+  font-size: 1.25rem;
+  color: #c084fc;
+  margin-bottom: 0.5rem;
+}
+
+.rooted-sub {
+  max-width: 650px;
+  opacity: 0.8;
+}
+
+h1#rooted::before {
+  content: "";
+  display: inline-block;
+  width: 1.4em;
+  height: 1.4em;
+  margin-right: 0.6rem;
+  vertical-align: middle;
+
+  background: url("/assets/icons/command-line.svg") no-repeat center;
+  background-size: contain;
+
+  color: #a855f7;
+}
+
+
+h2#what-lives-here::before {
+  content: "";
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+
+  background: url("/assets/icons/archive-box.svg") no-repeat center;
+  background-size: contain;
+  opacity: 0.85;
+}
+
+
+h2#about::before {
+  content: "";
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+
+  background: url("/assets/icons/information-circle.svg") no-repeat center;
+  background-size: contain;
+  opacity: 0.85;
+}

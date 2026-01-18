@@ -1,35 +1,29 @@
-site_name: My Docs
+site_name: Rooted
 site_url: https://sitename.example
 theme:
   
   name: material
   font:
     text: Quantico
-    code: Fira Code
+    code: JetBrains Mono
+  
+  
   
   logo: assets/Termux_Styling.jpeg
   favicon: assets/white.ico
   features:
     - navigation.footer
+    
    
 
            
   palette: 
-  # Dark Mode
-    - scheme: slate
-      toggle:
-        icon: material/weather-sunny
-        name: Dark mode
-      primary: black
-      accent: green
+    scheme: slate
+    primary: black
+    accent: purple
 
-  # Light Mode
-    - scheme: default
-      toggle:
-        icon: material/weather-night
-        name: Light mode
-      primary: blue
-      accent: deep purple
+    
+  
 
 
 markdown_extensions:
@@ -64,8 +58,15 @@ extra:
       link: https://www.youtube.com/watch?v=dQw4w9WgXcQ
    # - icon: simple/linkedin
    #   link: https://linkedin.com/in/willettjames
+   
+extra_css:
+  - stylesheets/extra.css
+  
+  
 
-copyright: Copyright &copy; 2024 Example
+
+copyright: "This site documents labs completed on legal platforms like TryHackMe and Hack The Box."
+
   
 
 
