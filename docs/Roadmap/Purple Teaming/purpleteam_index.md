@@ -137,13 +137,13 @@ Minimum setup:
 ```
 Attacker VM (Kali Linux)
     ↓ attacks
-Target VM (Windows 10 with Sysmon)
+Target VM (Windows 10)
     ↓ logs forwarded to
 SIEM VM (Splunk or Elastic)
 ```
 
 - [ ] Set up Kali Linux VM
-- [ ] Set up Windows 10 VM with Sysmon (SwiftOnSecurity config)
+- [ ] Set up Windows 10 VM 
 - [ ] Install and configure Splunk or Elastic
 - [ ] Forward Sysmon logs to your SIEM
 - [ ] Run your first Atomic Red Team test and verify it shows up in the SIEM

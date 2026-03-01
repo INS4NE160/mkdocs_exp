@@ -77,47 +77,6 @@
   opacity: 0.8;
 }
 
-h1#rooted::before {
-  content: "";
-  display: inline-block;
-  width: 1.4em;
-  height: 1.4em;
-  margin-right: 0.6rem;
-  vertical-align: middle;
-
-  background: url("/assets/icons/command-line.svg") no-repeat center;
-  background-size: contain;
-
-  color: #a855f7;
-}
-
-
-h2#what-lives-here::before {
-  content: "";
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5rem;
-  vertical-align: middle;
-
-  background: url("/assets/icons/archive-box.svg") no-repeat center;
-  background-size: contain;
-  opacity: 0.85;
-}
-
-
-h2#about::before {
-  content: "";
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5rem;
-  vertical-align: middle;
-
-  background: url("/assets/icons/information-circle.svg") no-repeat center;
-  background-size: contain;
-  opacity: 0.85;
-}
 
 
 /* Add this to your existing CSS */
@@ -134,4 +93,35 @@ h2#about::before {
 .md-typeset pre code,
 .md-typeset pre .linenos {
   color: inherit !important;
+}
+
+/* Make the nav logo bigger */
+.md-logo img {
+  width: 50px;
+  height: 50px;
+}
+
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  width: 48px !important;
+  height: 48px !important;
+}
+
+
+/* Make "Rooted" title match logo size */
+.md-header__title {
+  font-size: 1.4rem !important;
+  font-weight: 600 !important;
+}
+
+/* Tighten gap between logo and title */
+.md-header__button.md-logo {
+  margin-right: 0px !important;
+  padding-right: 0px !important;
+}
+
+/* Hide permalinks on home page */
+.md-content[data-md-component="content"] h1 .headerlink,
+.md-content[data-md-component="content"] h2 .headerlink {
+  display: none !important;
 }

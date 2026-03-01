@@ -9,8 +9,8 @@ theme:
   name: material
   language: en
 
-  logo: assets/logo.svg          # replace with your own logo file
-  favicon: assets/white.ico
+  logo: assets/logo1.svg         
+  favicon: assets/logo1.svg
 
   font:
     text: Quantico
@@ -97,17 +97,13 @@ copyright: |
 nav:
   - Home: index.md
 
-  - Roadmap: roadmap/index.md
+  - Roadmap: Roadmap/roadmap_index.md
 
   - Notes:
-    - notes/index.md
-    - Networking: notes/networking.md
-    - Linux: notes/linux.md
-    - Web: notes/web.md
-    - Cryptography: notes/cryptography.md
+    - Notes/notes_index.md
 
   - Walkthroughs:
-    - walkthroughs/index.md
+    - Walkthroughs/walkthrough_index.md
     - TryHackMe:
       - walkthroughs/tryhackme/index.md
     - HackTheBox:
@@ -116,13 +112,8 @@ nav:
       - walkthroughs/ctf/index.md
 
   - Tools:
-    - tools/index.md
-    - Nmap: tools/nmap.md
-    - Burp Suite: tools/burpsuite.md
-    - Gobuster: tools/gobuster.md
-    - Netcat: tools/netcat.md
-    - Metasploit: tools/metasploit.md
+    - Tools/tools_index.md
 
-  - Methodology: methodology/index.md
+  - Methodology: Methodology/methodology_index.md
 
-  - Reflections: reflections/index.md
+  - Reflections: Reflections/Roadmap/reflection_index.md

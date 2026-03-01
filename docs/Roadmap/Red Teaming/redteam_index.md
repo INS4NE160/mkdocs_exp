@@ -2,13 +2,13 @@
 
 The offensive side — learning to think like an attacker.
 
-!!! note "How to use this"
+!!! note "This is my Roadmap for Red Teaming "
     Work through each phase in order. Don't skip ahead — the later phases assume the earlier ones. Check off items as you go and link to your notes/writeups as you build them.
 
 ---
 
 ## Phase 1 — Absolute Basics
-*Get comfortable with the fundamentals before touching anything offensive.*
+*Getting comfortable with the fundamentals before touching anything offensive.*
 
 ### Linux
 - [ ] Navigating the file system (`cd`, `ls`, `pwd`, `find`)

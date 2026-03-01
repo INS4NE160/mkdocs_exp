@@ -2,7 +2,7 @@
 
 The defensive side — learning to detect, investigate, and respond to attacks.
 
-!!! note "How to use this"
+!!! note "This is my Roadmap for Blue Teaming"
     Blue team work is less glamorous than red but arguably more important. Work through each phase in order. The later phases assume you understand how attacks work, so pair this with the red team roadmap.
 
 ---

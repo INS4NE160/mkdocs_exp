@@ -2,7 +2,16 @@
 
 Mistakes and lessons that only show up after repetition.
 
+
 ---
+
+!!! quote
+    *"If you’re going hard enough left, you’ll find yourself turning right.*
+    - Smokey (aka: breaking things in cybersecurity is often how you learn to secure them)
+
+
+
+
 
 !!! quote
     *"Everyone has a plan until they get punched in the mouth."*

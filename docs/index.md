@@ -1,3 +1,7 @@
+---
+hide:
+  - toc
+---
 # Rooted
 
 A living knowledge base documenting my journey into cybersecurity.
@@ -14,7 +18,7 @@ Built through hands-on labs, deliberate study, and reflection over time.
 
     Where I am, where I've been, and where I'm going.
 
-    [:octicons-arrow-right-24: View roadmap](roadmap/index.md)
+    [:octicons-arrow-right-24: View roadmap](Roadmap/roadmap_index.md)
 
 -   :material-notebook-outline: **Notes**
 
@@ -22,7 +26,7 @@ Built through hands-on labs, deliberate study, and reflection over time.
 
     Foundational concepts I revisit and refine as I learn.
 
-    [:octicons-arrow-right-24: Browse notes](notes/index.md)
+    [:octicons-arrow-right-24: Browse notes](Notes/notes_index.md)
 
 -   :material-flag-outline: **Walkthroughs**
 
@@ -30,7 +34,7 @@ Built through hands-on labs, deliberate study, and reflection over time.
 
     Writeups from TryHackMe, HackTheBox, and CTFs — focused on understanding attack paths.
 
-    [:octicons-arrow-right-24: See writeups](walkthroughs/index.md)
+    [:octicons-arrow-right-24: See writeups](Walkthroughs/walkthrough_index.md)
 
 -   :material-tools: **Tools**
 
@@ -38,7 +42,7 @@ Built through hands-on labs, deliberate study, and reflection over time.
 
     Commands and cheatsheets for tools I actually use.
 
-    [:octicons-arrow-right-24: Browse tools](tools/index.md)
+    [:octicons-arrow-right-24: Browse tools](Tools/tools_index.md)
 
 -   :material-sitemap: **Methodology**
 
@@ -46,7 +50,7 @@ Built through hands-on labs, deliberate study, and reflection over time.
 
     My personal attack methodology and recon frameworks.
 
-    [:octicons-arrow-right-24: View methodology](methodology/index.md)
+    [:octicons-arrow-right-24: View methodology](Methodology/methodology_index.md)
 
 -   :material-thought-bubble-outline: **Reflections**
 
@@ -54,7 +58,7 @@ Built through hands-on labs, deliberate study, and reflection over time.
 
     Mistakes and lessons that only show up after repetition.
 
-    [:octicons-arrow-right-24: Read reflections](reflections/index.md)
+    [:octicons-arrow-right-24: Read reflections](Reflections/Roadmap/reflection_index.md)
 
 </div>
 
