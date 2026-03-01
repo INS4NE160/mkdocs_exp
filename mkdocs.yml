@@ -1,82 +1,128 @@
 site_name: Rooted
-site_url: https://sitename.example
+site_description: A living knowledge base documenting my journey into cybersecurity.
+site_url: https://ins4ne160.github.io/mkdocs_exp/
+
+repo_name: INS4NE160/mkdocs_exp
+repo_url: https://github.com/INS4NE160/mkdocs_exp
+
 theme:
-  
   name: material
+  language: en
+
+  logo: assets/logo.svg          # replace with your own logo file
+  favicon: assets/white.ico
+
   font:
     text: Quantico
     code: JetBrains Mono
-  
-  
-  
-  logo: assets/Termux_Styling.jpeg
-  favicon: assets/white.ico
-  features:
-    - navigation.footer
-    
-   
 
-           
-  palette: 
+  palette:
     scheme: slate
     primary: black
-    accent: purple
+    accent: deep purple
 
-    
-  
+  icon:
+    repo: fontawesome/brands/github
+    admonition:
+      note: octicons/tag-16
+      tip: octicons/squirrel-16
+      warning: octicons/alert-16
+      danger: octicons/zap-16
+      success: octicons/check-16
+
+  features:
+    - navigation.tabs                # top-level nav as tabs
+    - navigation.tabs.sticky         # tabs stay visible on scroll
+    - navigation.sections            # collapsible sidebar sections
+    - navigation.indexes             # section index pages (folder/index.md)
+    - navigation.top                 # back to top button
+    - navigation.footer              # prev/next page footer
+    - search.highlight               # highlight search terms on page
+    - search.suggest                 # search autocomplete
+    - content.code.copy              # copy button on all code blocks
+    - content.code.annotate          # annotate lines in code blocks
+    - content.tabs.link              # linked content tabs
 
 
 markdown_extensions:
   - attr_list
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  
-  
+  - md_in_html
+  - tables
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
-
   - pymdownx.tabbed:
-      alternate_style: true  
-  - admonition
-  - pymdownx.details
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tasklist:
+      custom_checkbox: true          # nice checkboxes for progress tracking
+  - toc:
+      permalink: true                # anchor links on every heading
+
+
+plugins:
+  - search
 
 
 extra:
-  generator: false  #removes the "made with mkdocs footer"
+  generator: false
   social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/INS4NE160
     - icon: simple/youtube
       link: https://www.youtube.com/watch?v=dQw4w9WgXcQ
-   # - icon: simple/linkedin
-   #   link: https://linkedin.com/in/willettjames
-   
+
+
 extra_css:
   - stylesheets/extra.css
-  
-  
 
 
-copyright: "This site documents labs completed on legal platforms like TryHackMe and Hack The Box."
-
-  
-
-
-      
-      
-    
-    
-     
-
-      
-    
+copyright: |
+  Disclaimer: This site is just me documenting what I'm learning.
+  Expect rough notes, mistakes, and things that may change as I understand them better.
 
 
+nav:
+  - Home: index.md
+
+  - Roadmap: roadmap/index.md
+
+  - Notes:
+    - notes/index.md
+    - Networking: notes/networking.md
+    - Linux: notes/linux.md
+    - Web: notes/web.md
+    - Cryptography: notes/cryptography.md
+
+  - Walkthroughs:
+    - walkthroughs/index.md
+    - TryHackMe:
+      - walkthroughs/tryhackme/index.md
+    - HackTheBox:
+      - walkthroughs/hackthebox/index.md
+    - CTF:
+      - walkthroughs/ctf/index.md
+
+  - Tools:
+    - tools/index.md
+    - Nmap: tools/nmap.md
+    - Burp Suite: tools/burpsuite.md
+    - Gobuster: tools/gobuster.md
+    - Netcat: tools/netcat.md
+    - Metasploit: tools/metasploit.md
+
+  - Methodology: methodology/index.md
+
+  - Reflections: reflections/index.md

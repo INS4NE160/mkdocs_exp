@@ -118,3 +118,20 @@ h2#about::before {
   background-size: contain;
   opacity: 0.85;
 }
+
+
+/* Add this to your existing CSS */
+.md-typeset .linenos {
+  color: #9ca3af !important; /* Gray line numbers */
+  border-right: 1px solid rgba(168, 85, 247, 0.2) !important;
+}
+
+.md-typeset pre code {
+  color: #f1f5f9; /* Light text in code blocks */
+}
+
+/* This prevents your purple from affecting code blocks */
+.md-typeset pre code,
+.md-typeset pre .linenos {
+  color: inherit !important;
+}
