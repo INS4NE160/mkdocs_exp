@@ -8,7 +8,7 @@
 
 | Room | Status | Notes |
 |------|--------|-------|
-| Offensive Security Intro | ✅ Done | Working on it |
+| Offensive Security Intro | ✅ Done | ([Notes](what-is-networking.md)) |
 | Defensive Security Intro | ✅ Done | Working on it |
 | Careers in Cyber | ✅ Done | Working on it |
 

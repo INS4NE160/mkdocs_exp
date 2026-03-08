@@ -74,7 +74,10 @@ markdown_extensions:
 
 plugins:
   - search
-
+  - pdf-export:
+      verbose: false
+      media_type: print
+      enabled_if_env: ENABLE_PDF_EXPORT
 
 extra:
   generator: false
@@ -87,6 +90,7 @@ extra:
 
 extra_css:
   - stylesheets/extra.css
+  - https://use.fontawesome.com/releases/v5.13.0/css/all.css
 
 
 copyright: |
@@ -101,7 +105,11 @@ nav:
 
   - Notes:
     - Notes/notes_index.md
-
+    - TryHackMe:
+      - Notes/TryHackMe/THM_index.md
+      - Pre-Security:
+        - Notes/TryHackMe/pre-security/presec_index.md
+        
   - Walkthroughs:
     - Walkthroughs/walkthrough_index.md
     - TryHackMe:
@@ -117,3 +125,9 @@ nav:
   - Methodology: Methodology/methodology_index.md
 
   - Reflections: Reflections/Roadmap/reflection_index.md
+
+
+
+
+
+
