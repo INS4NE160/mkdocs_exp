@@ -116,17 +116,24 @@ ping -n 4 10.10.10.10
 ??? question "What is each section of an IP address called?"
     **Octet**
 
-??? question "How many sections does an IP address have?"
+??? question "How many sections does an IPv4 address have?"
     **4**
 
 ??? question "What does the term 'MAC' stand for?"
     **Media Access Control**
 
-??? question "What tool uses ICMP packets to test connectivity between devices?"
-    **Ping**
-
 ??? question "[Interactive Lab] Deploy the interactive lab and spoof your MAC address to access the site. What is the flag?"
     **THM{YOU_GOT_ON_TRYHACKME}**
+
+??? question "What protocol does ping use?"
+    **ICMP**
+
+??? question "What is the syntax to ping 10.10.10.10?"
+    **Ping 10.10.10.10**
+
+??? question "[Interactive Lab] What flag do you get when you ping 8.8.8.8?"
+    **THM{I_PINGED_THE_SERVER}**
+
 
 ---
 
@@ -141,3 +148,10 @@ ping -n 4 10.10.10.10
 ## Summary
 
 Networks are connected devices. The internet is a massive public network made up of smaller networks. Devices are identified by IP addresses (logical, can change) and MAC addresses (physical, tied to hardware but can be spoofed). Ping uses ICMP to test connectivity between devices.
+
+
+---
+
+## Download Notes
+
+[:octicons-download-16: Download PDF {What is networking?}](what-is-networking.pdf)
