@@ -1,0 +1,186 @@
+/* =========================
+   Purple Team Identity
+   ========================= */
+
+/* Accent color override */
+:root {
+  --md-accent-fg-color: #a855f7; /* purple */
+  --md-primary-fg-color: #1f1b24;
+}
+
+/* Headings: stronger presence */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+  letter-spacing: 0.04em;
+  font-weight: 600;
+}
+
+/* Add subtle divider glow */
+.md-typeset hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(168, 85, 247, 0.6),
+    transparent
+  );
+  margin: 2rem 0;
+}
+
+/* Code blocks = terminal feel */
+.md-typeset pre {
+  background: #121016;
+  border-left: 4px solid #a855f7;
+  box-shadow: 0 0 18px rgba(168, 85, 247, 0.15);
+}
+
+/* Inline code */
+.md-typeset code {
+  color: #c084fc;
+}
+
+/* Sidebar active item */
+.md-nav__link--active {
+  color: #c084fc !important;
+}
+
+/* Table styling */
+.md-typeset table {
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.md-typeset thead {
+  background: rgba(168, 85, 247, 0.15);
+}
+
+/* Blockquote = analyst note */
+.md-typeset blockquote {
+  border-left: 4px solid #a855f7;
+  background: rgba(168, 85, 247, 0.08);
+}
+
+.rooted-hero {
+  margin: 2rem 0 3rem 0;
+}
+
+.rooted-tagline {
+  font-size: 1.25rem;
+  color: #c084fc;
+  margin-bottom: 0.5rem;
+}
+
+.rooted-sub {
+  max-width: 650px;
+  opacity: 0.8;
+}
+
+
+
+/* Add this to your existing CSS */
+.md-typeset .linenos {
+  color: #9ca3af !important; /* Gray line numbers */
+  border-right: 1px solid rgba(168, 85, 247, 0.2) !important;
+}
+
+.md-typeset pre code {
+  color: #f1f5f9; /* Light text in code blocks */
+}
+
+/* This prevents your purple from affecting code blocks */
+.md-typeset pre code,
+.md-typeset pre .linenos {
+  color: inherit !important;
+}
+
+/* Make the nav logo bigger */
+.md-logo img {
+  width: 50px;
+  height: 50px;
+}
+
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  width: 48px !important;
+  height: 48px !important;
+}
+
+
+/* Make "Rooted" title match logo size */
+.md-header__title {
+  font-size: 1.4rem !important;
+  font-weight: 600 !important;
+}
+
+/* Tighten gap between logo and title */
+.md-header__button.md-logo {
+  margin-right: 0px !important;
+  padding-right: 0px !important;
+}
+
+/* Hide permalinks on home page */
+.md-content[data-md-component="content"] h1 .headerlink,
+.md-content[data-md-component="content"] h2 .headerlink {
+  display: none !important;
+}
+
+@media print {
+  /* Force dark background everywhere */
+  body, html,
+  .md-main, .md-content, .md-typeset,
+  .md-content__inner {
+    background-color: #0f0f0f !important;
+    color: #f1f5f9 !important;
+  }
+
+  /* Hide nav elements */
+  .md-header, .md-sidebar, .md-footer,
+  .md-tabs, .md-top, .md-clipboard {
+    display: none !important;
+  }
+
+  /* Headings */
+  .md-typeset h1, .md-typeset h2,
+  .md-typeset h3, .md-typeset h4 {
+    color: #a855f7 !important;
+  }
+
+  /* Code blocks */
+  .md-typeset pre {
+    background: #121016 !important;
+    border-left: 4px solid #a855f7 !important;
+  }
+
+  .md-typeset pre code,
+  .md-typeset code {
+    background: #121016 !important;
+    color: #f1f5f9 !important;
+  }
+
+  /* Blockquotes */
+  .md-typeset blockquote,
+  .md-typeset blockquote p {
+    background: #1a1a2e !important;
+    color: #f1f5f9 !important;
+    border-left: 4px solid #a855f7 !important;
+  }
+
+  /* Tables */
+  .md-typeset table,
+  .md-typeset td, .md-typeset th {
+    background: #1a1a2e !important;
+    color: #f1f5f9 !important;
+    border-color: rgba(168, 85, 247, 0.3) !important;
+  }
+
+  .md-typeset thead tr {
+    background: rgba(168, 85, 247, 0.3) !important;
+  }
+
+  /* Links */
+  a {
+    color: #a855f7 !important;
+  }
+}
