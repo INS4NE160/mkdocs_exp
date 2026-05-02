@@ -38,5 +38,5 @@ This site is just me documenting what I'm learning. Expect rough notes, mistakes
 ---
 
 <div align="center">
-  <sub>Made with 🔒 by <a href="https://github.com/INS4NE160">INS4NE160</a></sub>
+  <sub>I broke it. I fixed it. I documented it.— INS4NE160</sub>
 </div>
